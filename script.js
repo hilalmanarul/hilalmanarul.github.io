@@ -32,7 +32,7 @@ $('.srcBtn').on('click',function(){
     	$('.btnCls').on('click',function(){
 				let movieid = $(this).data('target-id')
 				$.ajax({
-					url: 'http://www.omdbapi.com/?apikey=ecc908d4&i='+ movieid,
+					url: 'https://www.omdbapi.com/?apikey=ecc908d4&i='+ movieid,
 					error: function(e){
 						console.log(e.responseText)
 					},
