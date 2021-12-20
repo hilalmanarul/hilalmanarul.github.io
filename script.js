@@ -4,7 +4,7 @@ $('.srcBtn').on('click',function(){
 	let srcBar = document.getElementById('srcBar').value
 	$.ajax({
 
-	url : `http://www.omdbapi.com/?s=${srcBar}&apikey=ecc908d4`,
+	url : `https://www.omdbapi.com/?s=${srcBar}&apikey=ecc908d4`,
 	error : function(e){
 		console.log(e.responseText)
 	},
